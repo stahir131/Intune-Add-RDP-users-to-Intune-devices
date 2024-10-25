@@ -1,8 +1,8 @@
 # Intune---Add-RDP-users-to-Intune-devices
-This article covers how to add RDP users to Intune-enabled devices
-Step1: Login to Intune admin portal at https://intune.microsoft.com/#home
-Select > Endpoint security > Account Protection > Create policy
-Select the platform and select "Local user group membership" and create
+This article covers how to add RDP users to Intune-enabled devices</br>
+**Step1**: Login to Intune admin portal at https://intune.microsoft.com/#home</br>
+Select > Endpoint security > Account Protection > Create policy</br>
+Select the platform and select "Local user group membership" and create</br>
 
 ![image](https://github.com/user-attachments/assets/4d49ea1b-e969-4524-aa83-275677c66712)
 
