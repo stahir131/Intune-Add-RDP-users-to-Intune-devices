@@ -13,7 +13,7 @@ Select the platform and select "**Local user group membership**" and create<br /
 
 Login to remote device and check the remote dektop users list, you should see all the users.
 
-This settings can also be implemented in the remote device using cmd as command as administrator.
-**net localgroup "Remote Desktop Users" /add "AzureAD\<userUPN>"**
+This settings can also be implemented in the remote device using cmd command as administrator.<br />
+**net localgroup "Remote Desktop Users" /add "AzureAD\<userUPN>"**<br />
 
 Replace <userUPN> with the user's email address
