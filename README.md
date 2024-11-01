@@ -1,4 +1,4 @@
-**Add RDP Users to AzureAD-joined Devices**<br />
+### **Add RDP Users to AzureAD-joined Devices**<br />
 
 This article covers how to add RDP users to AzureAD-joined devices from the Intune admin portal<br />
 **Step1**: Login to Intune admin portal at https://intune.microsoft.com/#home<br />
@@ -13,7 +13,8 @@ Select the platform and select "**Local user group membership**" and create<br /
 
 Login to remote device and check the remote dektop users list, you should see all the users.
 
+### **Using CMD Command to Add RDP users**
 This settings can also be implemented in the remote device using cmd command as administrator.<br />
 **net localgroup "Remote Desktop Users" /add "AzureAD\<userUPN>"**<br />
 
-Replace <userUPN> with the user's email address
+Replace **UserUPN** with the user's email address
